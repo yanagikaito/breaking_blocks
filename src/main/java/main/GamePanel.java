@@ -1,4 +1,6 @@
-package org.example.main;
+package main;
+
+import racket.Racket;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,6 +10,8 @@ public class GamePanel extends JPanel implements Runnable {
     public final int screenHeight = 576;
 
     Thread gameThread;
+
+    Racket racket = new Racket(this);
 
     // FPS
     int FPS = 60;
@@ -90,6 +94,6 @@ public class GamePanel extends JPanel implements Runnable {
 
         Graphics2D g2 = (Graphics2D) g;
 
-
+        racket.draw(g2);
     }
 }
