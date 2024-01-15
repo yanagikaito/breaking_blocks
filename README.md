@@ -13,3 +13,8 @@ JavaでSwingを使ってブロック崩しのゲームを作りたいと思い�
 @GANTZ(GANTZ G)
 
 https://qiita.com/GANTZ/items/f527cf1760df384bf312
+
+
+aidiary
+
+https://aidiary.hatenablog.com/entry/20070601/1251545490
